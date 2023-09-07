@@ -1,0 +1,49 @@
+@corFundo: #f0911c;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: @corFundo;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  h1 {
+    border: 2em;
+  }
+
+  .container {
+    margin: 25vh auto 0;
+    width: 50vw;
+
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.221);
+
+    button {
+      width: 15em;
+      height: 3em;
+      font-weight: bold;
+      margin: 1em auto;
+      font-size: 1.3em;
+      border-radius: 0.5em;
+      border: none;
+      background-color: transparent;
+      transition: all ease 0.3s;
+
+      &:hover {
+        background-color: #ffffff47;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+span#creditos {
+  margin: 50px 25vw;
+}
